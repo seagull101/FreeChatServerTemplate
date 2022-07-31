@@ -1,0 +1,28 @@
+{
+	"ServerName":"Sample Server",
+	"TextChannel":[
+		{
+			"Name":"General",
+			"ID":0,
+			"Description":"For posting general stuff",
+			"Blacklist":[
+				{
+					"Userid":2020,
+					"Reason":"You are cringe! LOL!",
+					"BanDate":null,
+					"Viewable":false,
+				},
+				{
+					"Userid":2019,
+					"Reason":"Bruh.",
+					"BanDate":"Jul-15-23 5:30 PST",
+					"Viewable":true,
+				},
+			],
+			"Messages":[
+				
+			],
+			
+		}
+	],
+}
