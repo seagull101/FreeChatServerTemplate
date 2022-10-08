@@ -1,0 +1,34 @@
+{
+	"ServerName": "Sample Server",
+	"ServerDesc": "A test server, which I am using to test if this stuff works.",
+	"ServerWarn": "This server may be broken!",
+	"MediaIcon": "JavaScript_Logo.png",
+	"TextChannels": [{
+		"Name": "Message Testing",
+		"ID": 0,
+		"Description": "For Testing Messages",
+		"KillDate": null,
+		"Blacklist": [],
+		"Messages": [{
+				"Content": "Hello World!",
+				"UserID": 0,
+				"ID": 0,
+				"Flagged": false,
+				"Passcode": null,
+				"MarkedImportant": false,
+				"ServerAD": false,
+				"Media": null,
+				"ViewList": [0, 100, 200, 300],
+			"TimeStamp": "4/1/2022 11:08:47 PM",
+				"KillDate": null
+			}
+		]
+
+	}],
+	"Users": [{
+		"Name": "Not Verified",
+		"Email": null,
+		"IconMedia": "",
+		"PermissionLevel": 0
+	}]
+}

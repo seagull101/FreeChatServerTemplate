@@ -1,28 +1,132 @@
-{
-	"ServerName":"Sample Server",
-	"TextChannel":[
-		{
-			"Name":"General",
-			"ID":0,
-			"Description":"For posting general stuff",
-			"Blacklist":[
-				{
-					"Userid":2020,
-					"Reason":"You are cringe! LOL!",
-					"BanDate":null,
-					"Viewable":false,
-				},
-				{
-					"Userid":2019,
-					"Reason":"Bruh.",
-					"BanDate":"Jul-15-23 5:30 PST",
-					"Viewable":true,
-				},
-			],
-			"Messages":[
-				
-			],
-			
-		}
-	],
+j{
+	"ServerName": "Sample Server",
+	"ServerDesc": "A test server, which I am using to test if this stuff works.",
+	"ServerWarn": "This server may be broken!",
+	"MediaIcon": "JavaScript_Logo.png",
+	"TextChannels": [{
+		"Name": "General",
+		"ID": 0,
+		"Description": "For posting general stuff",
+		"KillDate": null,
+		"Blacklist": [{
+				"UserID": 2020,
+				"Reason": "You are cringe! LOL!",
+				"BanDate": null,
+				"Viewable": false
+			},
+			{
+				"UserID": 2019,
+				"Reason": "Bruh.",
+				"BanDate": "Jul-15-23 5:30 PST",
+				"Viewable": true
+			}
+		],
+		"Messages": [{
+				"Content": "Hello World!",
+				"UserID": 0,
+				"ID": 0,
+				"Flagged": false,
+				"Passcode": null,
+				"MarkedImportant": false,
+				"ServerAD": false,
+				"Media": null,
+				"ViewList": [0, 100, 200, 300],
+			"TimeStamp": null,
+				"KillDate": null
+			},
+			{
+				"Content": "I'm invisible!",
+				"UserID": 0,
+				"ID": 1,
+				"Flagged": false,
+				"Passcode": 99521,
+				"MarkedImportant": false,
+				"ServerAD": false,
+				"Media": null,
+				"ViewList": [0, 100, 200, 300],
+				"TimeStamp": null,
+				"KillDate": null
+			}
+		]
+
+	}, {
+		"Name": "Memes",
+		"ID": 1,
+		"Description": "For all the memes",
+		"KillDate": null,
+		"Blacklist": [],
+		"Messages": [{
+				"Content": "First!",
+				"UserID": 0,
+				"ID": 0,
+				"Flagged": false,
+				"Passcode": null,
+				"MarkedImportant": false,
+				"ServerAD": false,
+				"Media": null,
+				"ViewList": [0, 100, 200, 300],
+			"TimeStamp": null,
+				"KillDate": null
+			},
+			{
+				"Content": "Second!",
+				"UserID": 0,
+				"ID": 1,
+				"Flagged": false,
+				"Passcode": null,
+				"MarkedImportant": false,
+				"ServerAD": false,
+				"Media": null,
+				"ViewList": [0, 100, 200, 300],
+				"TimeStamp": null,
+				"KillDate": null
+			},
+			{
+				"Content": "Third!",
+				"UserID": 0,
+				"ID": 2,
+				"Flagged": false,
+				"Passcode": null,
+				"MarkedImportant": false,
+				"ServerAD": false,
+				"Media": null,
+				"ViewList": [0, 100, 200, 300],
+				"TimeStamp": null,
+				"KillDate": null
+			}
+		]
+
+	}, {
+		"Name": "Verified Chat",
+		"ID": 2,
+		"Description": "For Verified Users!",
+		"KillDate": null,
+		"Blacklist": [{
+			"UserID": 0,
+			"Reason": "You are not a verified user",
+			"TimeStamp": null,
+			"BanDate": null,
+			"Viewable": false
+		}],
+		"Messages": [{
+			"Content": "Hello World!",
+			"UserID": 0,
+			"ID": 0,
+			"Flagged": false,
+			"Passcode": null,
+			"MarkedImportant": false,
+			"ServerAD": false,
+			"Media": null,
+			"ViewList": [0, 100, 200, 300],
+			"TimeStamp": null,
+			"KillDate": null
+		} ]
+
+	}],
+	"Users": [{
+		"Name": "Not Verified",
+		"Email": null,
+		"IconMedia": "",
+		"PermissionLevel": 0
+	}]
 }
